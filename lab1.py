@@ -30,7 +30,7 @@ class Car:
 
 # Create two Car objects. One should be a red Toyota and the other a blue Ford.
 
-
+toyota=Car("color"red, )
 
 # Start the engine of the red Toyota.
 
