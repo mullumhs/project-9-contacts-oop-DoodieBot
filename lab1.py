@@ -13,6 +13,7 @@ class Car:
         self.color = color
         self.brand = brand
         self.is_engine_on = False
+        self.odometer = 0
 
     def start_engine(self):
         self.is_engine_on = True
@@ -30,10 +31,11 @@ class Car:
 
 # Create two Car objects. One should be a red Toyota and the other a blue Ford.
 
-toyota=Car("color"red, )
+car1=Car('red', 'toyota')
+car2=car()
 
 # Start the engine of the red Toyota.
-
+car1.start_engine()
 
 
 # Create a method called "drive" that takes a distance as a parameter.
@@ -46,5 +48,5 @@ toyota=Car("color"red, )
 
 
 # Print the brand, odometer and colour of both cars.
-
+print(car1)
 
