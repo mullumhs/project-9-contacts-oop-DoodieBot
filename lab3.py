@@ -15,18 +15,22 @@
 # 6. Use the class method to print out the total number of contacts
 
 class Contact:
-    def __init__(self, name, email):
+    def __init__(self, name, email, phone):
         self.name=name
         self.email=email 
+        self.phone=phone
         Contact.total_contacts =+1
         
 
-def emailcheck(self, email):
-    if "@"in self.email:
-        return(True)
+    def emailcheck(self, email):
+        if "@"in self.email:
+            return(True)
+        
+        else:
+            return False
     
-    else:
-        return False
+    def __str__(self):
+        return f"{self.name}, {self.email}, {self.number}"
         
 @classmethod
 def get_contact_count():
